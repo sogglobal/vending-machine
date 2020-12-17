@@ -1,0 +1,53 @@
+### get vending machine status
+
+GET http://localhost:8080/api/vending-machine
+Accept: application/json
+
+### insert coin 1
+
+POST http://localhost:8080/api/vending-machine/insert-coin/1
+Accept: application/json
+
+### insert coin 5
+
+POST http://localhost:8080/api/vending-machine/insert-coin/5
+Accept: application/json
+
+
+### insert coin 10
+
+POST http://localhost:8080/api/vending-machine/insert-coin/10
+Accept: application/json
+
+
+### insert coin 25
+
+POST http://localhost:8080/api/vending-machine/insert-coin/25
+Accept: application/json
+
+### select product Coke(25)
+
+POST http://localhost:8080/api/vending-machine/select-product/coke
+Accept: application/json
+
+### select product Pepsi(35)
+
+POST http://localhost:8080/api/vending-machine/select-product/pepsi
+Accept: application/json
+
+### select product Soda(45)
+
+POST http://localhost:8080/api/vending-machine/select-product/soda
+Accept: application/json
+
+### cancel request
+
+POST http://localhost:8080/api/vending-machine/cancel-request
+Accept: application/json
+
+### reset operation
+
+POST http://localhost:8080/api/vending-machine/reset-operation
+Accept: application/json
+
+###
